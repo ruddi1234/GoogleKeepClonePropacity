@@ -6,6 +6,7 @@ import {
   ArchiveOutlined as Archive,
   DeleteOutlineOutlined as Delete,
 } from "@mui/icons-material";
+import ColorLensRoundedIcon from "@mui/icons-material/ColorLensRounded";
 
 import { DataContext } from "../../context/DataProvider";
 
@@ -40,6 +41,7 @@ const Note = ({ note }) => {
         <Typography>{note.text}</Typography>
       </CardContent>
       <CardActions>
+        <ColorLensRoundedIcon />
         <Archive
           fontSize="small"
           style={{ marginLeft: "auto" }}
