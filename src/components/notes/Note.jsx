@@ -32,7 +32,7 @@ const Note = ({ note }) => {
     setNotes(updatedNotes);
     setDeleteNotes((prevArr) => [note, ...prevArr]);
   };
-
+  //card action ke andar rakhte h buttons ko mui me
   return (
     <StyledCard>
       <CardContent>
